@@ -1,0 +1,82 @@
+.todo {
+  margin-top: 30px;
+
+  &__sec {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,.125);
+    
+  }
+
+  &__wrap {
+    width: 50%;
+    height: 600px;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 25px;
+  }
+
+  &__name-inp {
+  }
+
+  &__rel-inp {
+  }
+
+  &__phone-inp {
+  }
+  &__add-sec {
+    width: 50%;
+  }
+  &__btn-list {
+    display: flex;
+    justify-content: space-around;
+    @include list-unstyled;
+    margin-top: 20px;
+  }
+  &__list {
+    min-height: 400px;
+    @include list-unstyled;
+  }
+
+  &__item {
+    width: 90%;
+    // height: 150px;
+    // border: 1px solid;
+    margin: 20px auto;
+    border-radius: 5px !important;
+    // padding: 15px;
+    position: relative;
+  }
+
+  &__name {
+
+  }
+  &__remove {
+    // font-size: 20px;
+    // background-color: transparent;
+    // border: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  &__rel {
+    margin-bottom: 15px;
+  }
+
+  &__num {
+    position: relative;
+    padding-left: 30px;
+
+    &::before {
+      content: "";
+      background-image: url("../../media/img/phone.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 6px;
+      left: 5px;
+    }
+  }
+}
