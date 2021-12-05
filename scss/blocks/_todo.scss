@@ -14,15 +14,6 @@
     border: 1px solid rgba(0,0,0,.125);
     padding: 25px;
   }
-
-  &__name-inp {
-  }
-
-  &__rel-inp {
-  }
-
-  &__phone-inp {
-  }
   &__add-sec {
     width: 50%;
   }
@@ -39,21 +30,11 @@
 
   &__item {
     width: 90%;
-    // height: 150px;
-    // border: 1px solid;
     margin: 20px auto;
     border-radius: 5px !important;
-    // padding: 15px;
     position: relative;
   }
-
-  &__name {
-
-  }
   &__remove {
-    // font-size: 20px;
-    // background-color: transparent;
-    // border: none;
     position: absolute;
     top: 15px;
     right: 15px;
